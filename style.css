@@ -1,0 +1,146 @@
+p {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@import url("http://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap");
+
+.head {
+  background-color: #004175;
+  width: device-width;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.title {
+  padding-left: 1rem;
+  color: aliceblue;
+  font-family: "Oswald";
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+  border: 2px;
+  border-color: black;
+  font-family: "Open Sans";
+  justify-content: space space-between;
+}
+
+.nav-link {
+  color: aliceblue;
+  font-family: "Oswald";
+  margin: 1rem;
+}
+
+.home-text {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: "Open Sans";
+}
+
+.intro-text {
+  font-family: "open sans";
+}
+
+.donate {
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg);
+}
+
+.volunteer {
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/volunteer.jpg);
+}
+
+.location {
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/location.png);
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  width: 33.333%;
+  background-size: cover;
+  background-position: center;
+  font-size: 3rem;
+  font-family: "Oswald";
+}
+
+h2 {
+  font-family: "Oswald";
+}
+
+.dog-name {
+  font-family: "Oswald";
+  font-size: 1rem;
+  color: black;
+}
+
+.dog-hero {
+  width: 100%;
+  object-fit: fill;
+  background-size: cover;
+}
+
+.dogs {
+  border-style: double;
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  color: aliceblue;
+  width: 33.3%;
+  background-size: cover;
+  background-position: center;
+  font-size: 2rem;
+  font-family: "Open Sans";
+}
+
+.dog-list {
+  display: flex;
+  font-family: "Oswald";
+  border-style: solid;
+  border-radius: 1px;
+  border-color: gray;
+  border-width: 2px;
+  padding: 2px;
+  margin: 2px;
+  margin-bottom: 25px;
+  height: 400px;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.dog-trait {
+  display: inline-block;
+  background-color: #89deef;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 3px;
+  color: black;
+  font-family: "open sans-serif";
+  font-size: 12px;
+}
+
+footer {
+  display: flex;
+  height: 15rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: aliceblue;
+  position: relative;
+}
